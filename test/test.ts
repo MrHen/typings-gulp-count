@@ -112,3 +112,14 @@ test('options.logger', (t) => {
 
   t.assert(1 === 1);
 });
+
+test('options.title', (t) => {
+  t.plan(1);
+  gulp.src('assets/**.*')
+      .pipe(gulp.dest('build'))
+      .pipe(count('found ## pages', {
+        title: 'test'
+      }));
+
+  t.assert(1 === 1);
+});
