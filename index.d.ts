@@ -7,7 +7,7 @@ declare namespace gulpCount {
   }
 }
 
-declare function gulpCount(options?: gulpCount.Options);
-declare function gulpCount(message: string, options?: gulpCount.Options);
+declare function gulpCount(options?: gulpCount.Options): any;
+declare function gulpCount(message: string, options?: gulpCount.Options): any;
 
 export = gulpCount;
