@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "blue-tape": "^0.2.0",
+    "gulp": "^3.9.1",
     "gulp-count": "0.2.0",
     "onchange": "^2.2.0",
     "tap-spec": "^4.1.1",
