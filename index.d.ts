@@ -1,9 +1,10 @@
 declare namespace gulpCount {
   export interface Options {
     cwd?: string;
-    logger?: (message: string) => any;
+    logger? (message: string): any;
     logFiles?: boolean | string;
     message?: string;
+    title?: string;
   }
 }
 
