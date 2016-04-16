@@ -42,6 +42,20 @@ test('gulp-count (only options)', (t) => {
   t.assert(1 === 1);
 });
 
+test('options interface', (t) => {
+  t.plan(1);
+
+  let options: count.Options = {
+    message: 'template'
+  };
+
+  gulp.src('assets/**.*')
+      .pipe(gulp.dest('build'))
+      .pipe(count(options));
+
+  t.assert(1 === 1);
+});
+
 test('options.message', (t) => {
   t.plan(1);
   gulp.src('assets/**.*')
