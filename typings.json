@@ -4,7 +4,8 @@
   "homepage": "https://github.com/palantir/gulp-count",
   "version": "",
   "devDependencies": {
-    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613",
+    "gulp": "registry:npm/gulp#3.8.0+20160211003958"
   },
   "ambientDevDependencies": {
     "node": "registry:dt/node#4.0.0+20160319033040"
